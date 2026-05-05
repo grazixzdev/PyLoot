@@ -95,7 +95,7 @@ def parse_games(soup):
 # Cria o arquivo CSV e salva as informações coletadas com encoding para Excel
 def save_csv(games_list):
     if not games_list:
-        print("Nenhum jogo para salvar.")
+        print("Nenhum jogo com oferta para salvar.")
         return
     
     columns = ["Título", "Preço Antigo", "Preço com Oferta"]
