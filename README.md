@@ -6,10 +6,6 @@ O **PyLoot** é uma ferramenta de automação desenvolvida em Python para minera
 
 
 
-Este projeto foi construído para consolidar conhecimentos da matéria de **Programação de Computadores**, focando em requisições HTTP, manipulação de HTML e persistência de dados.
-
-
-
 ---
 
 <div class="languages-svg" align="center">
