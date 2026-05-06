@@ -102,7 +102,7 @@ def save_csv(games_list):
     try:
         # utf-8-sig garante que acentos e símbolos de moeda apareçam certo no Excel
         with open('ofertas_nuuvem.csv', 'w', newline='', encoding='utf-8-sig') as archive:
-            writer = csv.DictWriter(archive, fieldnames=columns)
+            writer = csv.DictWriter(archive, fieldnames=columns, delimiter=';')
             writer.writeheader()
             writer.writerows(games_list)
         print(f"\nRelatório com {len(games_list)} jogos salvos com sucesso!")
